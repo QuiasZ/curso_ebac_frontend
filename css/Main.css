@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: gray;
+    padding: 16px 0;
+    color: rgb(255, 255, 255);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a {
+    color: bisque;
+    text-decoration: none;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /* width: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 8px 0;
+}
+
+section h2 {
+    margin-bottom: 8px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0, 0.171);
+}
+
+#esportes .articles article a {
+    background-color: rgba(0, 255, 0, 0.3);
+
+}
+
+#economy {
+    background-color: rgb(255, 198, 129);
+}
+
+#economy .articles article a {
+    background-color: rgb(197, 158, 28);
+}
+
+#entre {
+    background-color: rgb(151, 145, 245);
+}
+
+#entre .articles article a {
+    background-color: rgb(12, 25, 145);
+}
+
+#tecno {
+    background-color: rgb(197, 143, 143);
+}
+
+#tecno .articles article a {
+    background-color: rgb(121, 5, 5);
+}
